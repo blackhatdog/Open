@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://rawgit.com/markhillard/Editor/gh-pages/css/reset.css">
+<style>
+@import url("https://fonts.googleapis.com/css?family=Fira+Code:400,700&display=swap");
+
+html,body {
+    background-color: #282a36;
+    color: #fff;
+    font-family: "Fira Code", monospace;
+    font-weight: 400;
+    overflow: hidden;
+    text-align: center;
+}
+
+main {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+}
+
+h1 {
+    font-size: 8rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+p {
+    font-size: 1rem;
+    letter-spacing: .03rem;
+    line-height: 1.45;
+    margin: 1rem 0;
+}
+
+a {
+    color: #6d8a88;
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 4rem;
+    }
+}
+</style>
+<link rel="icon" href="/favicon.jpg">
+
+</head>
+<body>
+<html>
+   <head>
+       <title>Open Search Engine</title>
+    </head>
+    <body>
+        <center><h1>
+            OPEN
+            </h1> The light search engine</center>
+           <br>
+        <script async src="https://cse.google.com/cse.js?cx=dfc61718851246dfa"></script>
+<div class="gcse-search"></div>
+        
+    </body>
+</html>
+<script>
+$(document).ready(function () {
+    $('h1').fadeOut(800).fadeIn(800);
+    $('p').first().delay(400).fadeOut(800).fadeIn(400);
+    $('p').last().delay(800).fadeOut(800).fadeIn(400);
+});
+</script>
+</body>
+</html>
